@@ -1,0 +1,30 @@
+player: name of National Hockey League (NHL) player
+hand: player's dominant hand while shooting; L (left) or R (right)
+pos: player's position; C(center), L(left wing), R(right wing), D(defense)
+gp: number of games played
+g: number of goals scored
+a: number of assists scored
+p: number of points; sum of g and a
+plus_minus: player's plus-minus; a player earns +1 if he is on the ice when his team scores (and the teams are at even strength), earns -1 if he is on the ice when the opposing team scores (and the teams are at even strength)
+pim: number of minutes received for commission of penalties
+p_gp: number of points divided my number of games played (p / gp)
+evg: number of even strength goals scored (i.e., when no penalties are in effect)
+evp: number of even strength points scored -- i.e., the number of even strength goals scored plus the number of even strength assists scored
+ppg: number of power play goals scored (i.e., when the opposing team takes a penalty, resulting in the penalized team being allowed to have only 4 players on the ice instead of 5)
+ppp: number of power play points scored -- i.e., number of power play goals scored plus number of power play assists scored
+shg: number of short-handed points scored (i.e., when the player's team takes a penalty, resulting in his team being allowed to have only 4 players on the ice instead of 5)
+shp: number of short-handed points scored -- i.e., number of short-handed goals plus number of short-handed assists
+otg: number of overtime goals scored (i.e., when three 20-minute periods of play are over, resulting on a 5 minute suddden death overtime period)
+gwg: number of game winning goals scored (i.e., a goal scored when the scorer's team would win the game without scoring any additional goals)
+shots: number of shots taken
+s_percent: shooting percentage -- number of goals per number of shots taken
+toi_gp: amount of time (in minutes) a player spends on the ice per game played
+fow_percent: percentage of faceoffs won by a player (usually only applies to players whose position is Center)
+salary: player's average annual salary
+corsi_pct: player's Corsi value (an overall measure of players' contributions to their teams)
+fenwick_pct: a measure of a player's time playing offense versus playing defense (trying to score goals versus trying to prevent the other team from scoring goals)
+tk: number of takeaways for a player (i.e., when the player steals the puck from an opposing player)
+gv: number of giveaways for a player (i.e., when the player has the puck stolen by an opposing player)
+exp_plus_minus: expected plus-minus (i.e., the player's expected offensive contribution to his team given where he tends to shoot the puck)
+pdo: an estimation of how lucky a player's team is
+tk_gv: ratio of takeaways to giveaways (tk / gv)
